@@ -60,7 +60,8 @@
  * ```html
  * <ion-infinite-scroll
  *   ng-if="moreDataCanBeLoaded()"
- *   icon="ion-loading-c"
+ *   icon="ion-load-c"
+ *   spinner="ios"
  *   on-infinite="loadMoreData()">
  * </ion-infinite-scroll>
  * ```
